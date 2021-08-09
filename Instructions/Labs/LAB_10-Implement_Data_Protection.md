@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '10 - 实现数据保护'
     module: '模块 10 - 数据保护'
@@ -41,7 +41,7 @@ lab:
 
     >**备注**： 如果这是第一次启动 **Cloud Shell**，并看到 **“未装载任何存储”** 消息，请选择在本实验室中使用的订阅，然后选择 **“创建存储”**。
 
-1. 在“Cloud Shell”窗格的工具栏中，单击 **“上传/下载文件”** 图标，在下拉菜单中，单击 **“上传”** 并将文件 **\\Allfiles\\Labs\\10\\az104-10-vms-template.json** 和 **\\Allfiles\\Labs\\10\\az104-10-vms-parameters.json** 上传到 Cloud Shell 主目录中。
+1. 在“Cloud Shell”窗格的工具栏中，单击 **“上传/下载文件”** 图标，在下拉菜单中，单击 **“上传”** 并将文件 **\\Allfiles\\Labs\\10\\az104-10-vms-edge-template.json** 和 **\\Allfiles\\Labs\\10\\az104-10-vms-edge-parameters.json** 上传到 Cloud Shell 主目录中。
 
 1. 在 Cloud Shell 窗格中，运行以下命令以创建托管虚拟机的资源组（将 `[Azure_region]` 占位符替换为你打算将 Azure 虚拟机部署到的 Azure 区域的名称）：
 

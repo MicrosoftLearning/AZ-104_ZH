@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '实验室 09c - 实现 Azure Kubernetes 服务'
     module: '模块 09 - 无服务器计算'
@@ -21,6 +21,10 @@ Contoso 具有许多不适合使用 Azure 容器实例运行的多层应用程�
 + 任务 4：缩放 Azure Kubernetes 服务群集中的容器化工作负载
 
 ## 预计用时：40 分钟
+
+## 体系结构图
+
+![图像](../media/lab09c.png)
 
 ## 说明
 

@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '03c - 使用 Azure PowerShell 管理 Azure 资源'
     module: '模块 03 - Azure 管理'
@@ -20,6 +20,10 @@ lab:
 + 任务 3： 使用 Azure PowerShell 配置托管磁盘
 
 ## 预计用时：20 分钟
+
+## 体系结构图
+
+![图像](../media/lab03c.png)
 
 ## 说明
 

@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '01 - 管理 Azure Active Directory 标识'
     module: '模块 01 - 标识'
@@ -22,6 +22,9 @@ lab:
 + 任务 4：管理 Azure AD 来宾用户 
 
 ## 预计用时：30 分钟
+
+## 体系结构图
+![图像](../media/lab01.png)
 
 ## 说明
 
