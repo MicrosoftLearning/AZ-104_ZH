@@ -25,6 +25,10 @@ lab:
 
 ## 预计用时：40 分钟
 
+## 体系结构图
+
+![图像](../media/lab04.png)
+
 ## 说明
 
 ### 练习 1
@@ -136,7 +140,7 @@ lab:
 
 1. 在 **“ipconfig1”** 边栏选项卡中，将 **“分配”** 设置为 **“静态”**，将 **“IP 地址”** 的默认值设置为 **“10.40.0.4”**。
 
-1. 返回 **“ipconfig1”** 边栏选项卡，保存更改。
+1. 返回 **“ipconfig1”** 边栏选项卡，保存更改。在继续下一步骤之前，请确保等待保存操作完成。
 
 1. 导航回 **“az104-04-vnet1”** 边栏选项卡
 
@@ -269,9 +273,10 @@ lab:
 
 1. 将远程桌面会话切换到 **az104-04-vm0**，右键单击 **“开始”** 按钮，然后在右键菜单中单击 **“Windows PowerShell (管理员)”**。
 
-1. 在 Windows PowerShell 控制台窗口中，运行以下命令以测试新创建的专用 DNS 区域中 **az104-04-vm1** DNS 记录集的内部名称解析：
+1. 在 Windows PowerShell 控制台窗口中，运行以下命令以测试新创建的专用 DNS 区域中的内部名称解析：
 
    ```powershell
+   nslookup az104-04-vm0.contoso.org
    nslookup az104-04-vm1.contoso.org
    ```
 
@@ -281,7 +286,7 @@ lab:
 
 在此任务中，你将使用 Azure 公共 DNS 区域配置外部 DNS 名称解析。
 
-1. 在 Web 浏览器中，打开一个新标签页，然后导航到 <https://www.godaddy.com/domains/domain-name-search>。
+1. 在 **“SEA-DEV”** 实验室系统的 Web 浏览器中，打开一个新标签页，然后导航到 <https://www.godaddy.com/domains/domain-name-search>。
 
 1. 使用域名搜索来标识未使用的域名。
 
